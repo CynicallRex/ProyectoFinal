@@ -28,20 +28,20 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:fillViewport="true"
-            android:weightSum="0.4">
+            android:weightSum="0.4"
+            android:fillViewport="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
                 android:layout_marginLeft="@dimen/login_horizontalMargin"
-                android:layout_marginRight="@dimen/login_horizontalMargin">
+                android:layout_marginRight="@dimen/login_horizontalMargin"
+                android:orientation="vertical">
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:theme="@style/EditTextWhite">
+                    android:theme="@style/editTextWhite">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
@@ -55,14 +55,14 @@
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:theme="@style/EditTextWhite"
+                    android:theme="@style/editTextWhite"
                     android:layout_marginTop="@dimen/login_marginTop">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:inputType="textPassword"
-                        android:hint="@string/contrasena">
+                        android:hint="@string/contrasena"
+                        android:inputType="textPassword">
 
                     </com.google.android.material.textfield.TextInputEditText>
                 </com.google.android.material.textfield.TextInputLayout>
@@ -70,9 +70,9 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/login_marginTop"
                     android:text="@string/button_text"
-                    android:theme="@style/RaiseButtonDark" />
+                    android:layout_marginTop="@dimen/login_marginTop"
+                    android:theme="@style/RaiseButtonDark"/>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -80,12 +80,12 @@
                     android:gravity="center">
 
                     <TextView
-                        android:id="@+id/no_tienes_cuenta"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/no_tienes_cuenta"
-                        android:textColor="@color/textView_textColor"
-                        android:textSize="@dimen/textView_textSize"/>
+                    android:id="@+id/no_tienes_cuenta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_tienes_cuenta"
+                    android:textColor="@color/textView_textColor"
+                    android:textSize="@dimen/textView_textSize"/>
 
                     <TextView
                         android:layout_width="wrap_content"
